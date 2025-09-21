@@ -9,8 +9,8 @@ This is a full-featured to-do list application that allows users to create, mana
 ## 🚀 Technologies Used
 
 ### Frontend
-- **Next.js 14** - React framework with App Router
-- **React 18** - UI library with hooks
+- **Next.js 15** - React framework with App Router
+- **React 19** - UI library with hooks
 - **TypeScript** - Type-safe development
 - **Emotion** - CSS-in-JS styling solution
 - **Framer Motion** - Smooth animations and transitions
@@ -18,7 +18,7 @@ This is a full-featured to-do list application that allows users to create, mana
 - **Lucide React** - Beautiful SVG icons
 
 ### Backend & Database
-- **Firebase v9** - Backend-as-a-Service
+- **Firebase v12** - Backend-as-a-Service
 - **Firestore** - NoSQL real-time database
 - **Firebase Auth** (ready for implementation)
 
@@ -79,12 +79,12 @@ yarn install
 ### 4. Environment Configuration
 Create a `.env.local` file in the root directory:
 ```env
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key_here
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_project.appspot.com
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
+NEXT_PUBLIC_FIREBASE_API_KEY="AIzaSyAcgff8qminCthe6o1VPzfCxO5eUYmsScs"
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="to-do-list-f228a.firebaseapp.com"
+NEXT_PUBLIC_FIREBASE_PROJECT_ID="to-do-list-f228a"
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="to-do-list-f228a.firebasestorage.app"
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="595999497777"
+NEXT_PUBLIC_FIREBASE_APP_ID="1:595999497777:web:d80ec0ce699d1a0093ff10"
 ```
 
 ### 5. Firestore Security Rules
@@ -120,51 +120,32 @@ yarn start
 
 ## 🤖 AI Support Explanation
 
-This project was developed with the assistance of Claude AI, which helped in several key areas:
+This project was developed with the assistance of IBM Granite, which helped in several key areas:
 
-### 🎯 Architecture & Design Decisions
+### Architecture & Design Decisions
 - **Component Structure** - AI helped design a clean, modular component architecture separating concerns between UI components and business logic
 - **State Management** - Guidance on optimal React state patterns and Firebase integration
 - **Theme Implementation** - Advanced next-themes integration with proper hydration handling
 
-### 🔧 Technical Implementation
+### Technical Implementation
 - **Firebase Integration** - Modern Firebase v9 modular SDK implementation with real-time listeners
 - **Styling Solutions** - Emotion CSS-in-JS implementation with theme-aware components
 - **TypeScript Integration** - Full type safety implementation with proper interfaces and type definitions
 - **Performance Optimization** - Best practices for React rendering and Firebase query optimization
 
-### 🚀 Modern Development Patterns
+### Modern Development Patterns
 - **Hooks Usage** - Proper implementation of React hooks (useState, useEffect, custom hooks)
 - **Animation Integration** - Framer Motion setup for smooth, performant animations
 - **Responsive Design** - Mobile-first approach with modern CSS techniques
 - **Error Handling** - Proper error boundaries and loading states
 
-### 🎨 User Experience Enhancements
+### User Experience Enhancements
 - **Theme Switching** - Seamless dark/light mode with system preference detection
 - **Micro-interactions** - Subtle animations and feedback for better user engagement
 - **Accessibility** - ARIA labels and keyboard navigation support
 - **Loading States** - Proper loading indicators and empty states
 
 The AI assistance enabled rapid development while maintaining high code quality, modern best practices, and a polished user experience. The resulting codebase is maintainable, scalable, and follows current industry standards.
-
-## 📱 Screenshots
-
-### Light Theme
-Beautiful, clean interface with subtle shadows and modern typography.
-
-### Dark Theme
-Elegant dark mode with carefully chosen colors for optimal readability.
-
-### Responsive Design
-Seamless experience across all device sizes.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
